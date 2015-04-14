@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+  android:minWidth="220dip"
+  android:minHeight="220dip"
+  android:updatePeriodMillis="1800000"
+  android:initialLayout="@layout/widget"
+  android:previewImage="@mipmap/hc_widget_preview"
+/><!-- From: file:/C:/Users/student2/AndroidStudioProjects/RestaurantApp/app/src/main/res/xml-v11/widget_provider.xml -->
