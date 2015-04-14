@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapp.ken.ken.restaurantapp.test">
+
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="myapp.ken.ken.restaurantapp"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for myapp.ken.ken.restaurantapp"/>
+</manifest>
