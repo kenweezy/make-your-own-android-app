@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/call"
+        android:title="Call"
+        android:icon="@mipmap/ic_menu_call"
+        />
+    <item android:id="@+id/sms"
+        android:title="Send SMS"
+        android:icon="@mipmap/ic_menu_send"
+        />
+
+</menu><!-- From: file:/C:/Users/student2/AndroidStudioProjects/RestaurantApp/app/src/main/res/menu/option_detail.xml -->
