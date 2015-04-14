@@ -1,0 +1,3 @@
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="search"
+    android:hint="search" /><!-- From: file:/C:/Users/student2/AndroidStudioProjects/RestaurantApp/app/src/main/res/xml/searchable.xml -->
