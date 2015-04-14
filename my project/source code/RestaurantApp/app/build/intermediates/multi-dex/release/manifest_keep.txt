@@ -1,0 +1,22 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class myapp.ken.ken.restaurantapp.Main { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.DetailForm { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.EditPreferences { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.FeedActivity { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.AlarmActivity { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.HelpPage { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.FeedService { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.WidgetService { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.ListWidgetService { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.OnBootReceiver { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.OnAlarmReceiver { <init>(); }
+-keep class myapp.ken.ken.restaurantapp.AppWidget { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
